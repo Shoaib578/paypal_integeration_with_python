@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5;url={{ url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .redirect-info {
+            margin-top: 20px;
+            color: #495057;
+        }
+
+        .redirect-link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <p>Your payment is being processed. Please wait.</p>
+    <div class="redirect-info">
+        If you are not redirected, click <a class="redirect-link" href="{{ url }}">here</a>.
+    </div>
+</body>
+</html>
